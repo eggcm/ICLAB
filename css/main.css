@@ -1,0 +1,637 @@
+*:link, *:visited, *:hover, *:active, *:focus , * 
+{
+	-o-transition: color .06s linear, background-color .10s linear, border-color .15s linear;
+	-webkit-transition: color .06s linear, background-color .10s linear, border-color .15s linear;
+	-moz-transition: color .06s linear, background-color .10s linear, border-color .15s linear;
+	transition: color .06s linear, background-color .10s linear, border-color .15s linear;
+}
+
+@font-face{
+	font-family: SourceSansPro-ExtraLight;
+	src: url('../font/SourceSansPro-ExtraLight.otf');
+	font-weight: lighter;
+	font-style: lighter;
+}
+@font-face{
+	font-family: Lato-Light;
+	src: url('../font/Lato-Light.ttf');
+	font-weight: lighter;
+	font-style: lighter;
+}
+@font-face{
+	font-family: AlegreyaSansSC-Thin;
+	src: url('../font/AlegreyaSansSC-Thin.otf');
+	font-weight: lighter;
+	font-style: lighter;
+}
+
+
+body
+{
+	background-attachment: fixed;
+	background-image: url('../img/background.png');
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#AllContent
+{
+	width: 50%;
+	margin: 0 auto;
+	display: table;
+}
+
+#Header
+{
+	margin: 0 auto;
+	display: table-row;
+	border-radius: 5px;
+	background-color: rgba(60, 60, 60, 0.1);
+}
+
+#Header:hover
+{
+}
+
+#HheadTitle
+{
+	margin: 0 auto;
+	margin-top: 3%;
+	padding-top: 2%;
+	text-align: center;
+	line-height: 50%;
+}
+
+#HheadTitle:hover
+{
+	-moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+a.HeaderHref
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a.HeaderHref:hover
+{
+	color: #2BC3A7;
+}
+
+#AcLabLogo
+{
+	width: 10%;
+}
+
+#headTitleBigWord
+{
+	font-family: 'Lato-Light', sans-serif;
+	font-size: 230%;
+	line-height: 0;
+}
+
+#headTitleSmallWord
+{
+	font-size: 105%;
+	font-weight: lighter;
+	line-height: 5px;
+}
+
+#HhotLink
+{
+	width: 28%;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 5%;
+	text-align: center;
+}
+
+img
+{
+	max-width: 100%;
+}
+
+img.HhotLinkIcons
+{
+	width: 13%;
+	padding-right: 5%;
+	padding-left: 5%;
+	opacity: 0.8;
+	border-radius: 50%;
+}
+
+img.HhotLinkIcons:hover
+{
+	opacity: 1;
+	-webkit-filter: invert(1);
+ 	filter: invert(1);
+	border-radius: 33%;
+	-moz-transition: all .51s ease;
+    -o-transition: all .51s ease;
+    -webkit-transition: all .51s ease;
+    transition: all .51s ease;
+}
+
+img.PpageStudentPic
+{
+	max-width: 70%;
+}
+
+a.HfirstLNavLinkHref:hover
+{
+	color: #FFFFFF;
+}
+
+a.HfirstLNavLinkHref
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+a.HfirstLNavNowLinkHref
+{
+	text-decoration: none;
+	color: #2BC3A7;
+}
+
+a.HfirstLNavNowLinkHref:hover
+{
+	color: #FFFFFF;
+}
+
+#Page
+{
+	background-color:rgba(255,255,255,0.5);
+	border-radius: 2px;
+}
+
+#PpageTitle
+{
+	text-align: center;
+	padding-top: 1%;
+	font-family: 'AlegreyaSansSC-Thin', sans-serif;
+    font-size: 150%;
+	font-weight: 500;
+}
+
+#PpageContent
+{
+	margin-top: 3%;
+}
+
+#PagePadding
+{
+	padding-left: 4%;
+	padding-right: 3%;
+	padding-bottom: 1%;
+}
+
+div.floatImg
+{
+	float:left;
+	padding-right: 5%;
+}
+
+p.PpageContentParagragh
+{
+	position: relative;
+	font-family: '微軟正黑體';
+}
+
+p.PpageContentParagragh:hover
+{
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+a.PpageContentInsideLink
+{
+	color: #0051FF;
+	text-decoration: none;
+}
+
+a.PpageContentInsideLink:hover
+{
+	text-decoration: underline;
+}
+
+a.PpageContentInsideLink:visited
+{
+	color: #660099;
+	text-decoration: none;
+}
+
+div.PpageLocationImg
+{
+	text-align:center;
+	padding-bottom: 5%;
+}
+
+span.contentBigWord
+{
+	font-family: '微軟正黑體';
+	font-size: 140%;
+	font-weight: 700;
+	color: #000000;
+}
+
+span.contentBigWord:hover
+{
+	color: #0051FF;
+}
+
+span.contentBigWord:visited
+{
+	color: #660099;
+}
+
+span.boldWord
+{
+	font-family: '微軟正黑體';
+	font-size: 110%;
+	font-weight: 700;
+}
+
+div.boldWordCenter
+{
+	font-family: '微軟正黑體';
+	font-size: 110%;
+	font-weight: 700;
+	text-align: center;
+}
+
+#footer
+{
+	display: table-row;
+}
+
+#footerWord
+{
+	padding-right: 2%;
+	color: #FFFFFF;
+	font-weight: 100;
+	text-align: right;
+}
+
+ul
+{
+	list-style: none;
+}
+
+ul.HNavigation
+{
+	margin: 0;
+    padding: 0;
+    text-decoration: none;
+    margin-top: 6%;
+}
+
+ul.HNavigation li h4
+{
+	margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+ul.HNavigation li > a
+{
+	display: block;
+	width: 100%;
+}
+
+ul.HNavigation li > a > div
+{
+	display: block;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+ul.HNavigation > li
+{
+	position: relative;
+	float: left;
+
+	width: 18%;
+	border-top: #000000 1px solid;
+	margin-right: 1%;   
+	margin-left: 1%;
+	float:left;
+	font-family: 'AlegreyaSansSC-Thin', sans-serif;
+	font-size: 110%;
+	font-weight: 100;
+	text-align: center;
+}
+
+ul.HNavigation > li:hover 
+{
+	border-top: #2BC3A7 1px solid;
+	background-color: #2BC3A7;
+	border-radius: 1px;
+	color: #FFFFFF;
+}
+
+ul.HNavigation > li:hover > a > div > h4
+{
+	color: #FFFFFF;
+}
+
+ul.HNavigation >li > ul
+{
+	display: none;
+	float: left;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(255,255,255,0.9);
+	color: #FFFFFF;
+	text-align: center;
+}
+
+ul.HNavigation li:hover > ul
+{
+	opacity: 1;
+	-webkit-transition: opacity 2s;
+    transition: opacity 2s;
+	display: block;
+	border-radius: 1px;
+	z-index: 900;
+	text-align: center;
+}
+
+ul.HNavigation li:hover > ul > li
+{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border-top: #FFFFFF 1px solid;
+}
+
+ul.HNavigation li > ul > li:hover
+{
+	background-color: #2BC3A7;
+	color: #FFFFFF;
+}
+
+ul.PpageContentDecimal
+{
+	list-style-type:decimal;
+	padding-left: 10%;
+	font-family: '微軟正黑體';
+}
+
+ul.PpageContentBulletPoint
+{
+	list-style-type:disc;
+	padding-left: 10%;
+	font-family: '微軟正黑體';
+}
+
+ul.PpageContentCirclePoint
+{
+	list-style-type:circle;
+	padding-left: 10%;
+	font-family: '微軟正黑體';
+}
+
+li
+{
+	padding-bottom: 2%;
+}
+
+li.HNavigationFirstLi
+{
+	padding: 0;
+}
+
+li:hover
+{
+	border-radius: 3px;
+	background-color: rgba(244, 244, 244, 0.6);
+}
+
+li.PpageContentLiLast:hover
+{
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+li.PpageContentBesideImg
+{
+	padding: 0;
+}
+
+a.HSecondLNavLinkHref
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+a.HSecondLNavLinkHref:hover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+div.divider
+{
+	margin: 5%;
+	border-top: #8D8D8D solid 1px;
+}
+
+div.PpageTableContainer:hover
+{
+	background-color: rgba(244, 244, 244, 0.4);
+	border-radius: 3px;
+}
+
+table, th, td
+{
+	border: #000000 1px solid;
+	border-collapse: collapse;
+}
+
+table
+{
+	width: 100%;
+	font-family: '微軟正黑體';
+}
+
+table.PpageContentStudentTable
+{
+	width: 70%;
+	margin: 0 auto;
+	border: none;
+}
+
+table.PpageContentStudentTable tr
+{
+}
+
+table.PpageContentStudentTable td
+{
+	border: none;
+}
+
+th
+{
+	background-color: #4B9AD2;
+	color: #FFFFFF;
+	font-weight: 120%;
+}
+
+tr:hover
+{
+	background-color: #F4F4F4;
+	color: #000000;
+}
+
+td.PpageTdProjectOthers
+{
+	text-align: center;
+}
+
+td.PpageTdProjectName
+{
+	width: 40%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+td.PpageTdStudentName
+{
+	width: 60%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+div.PpageEventImg
+{
+	width: 70%;
+}
+
+div.PpageEventContainer
+{
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+div.PpageEventContainer:hover
+{
+	border-radius: 3px;
+	background-color: rgba(244, 244, 244, 0.6);
+}
+
+div.PpageEventImg
+{
+	margin:0 auto;
+}
+
+@-webkit-keyframes swing { 
+    20%, 40%, 60%, 80%, 100% { -webkit-transform-origin: top center; } 
+    20% { -webkit-transform: rotate(15deg); } 
+    40% { -webkit-transform: rotate(-10deg); } 
+    60% { -webkit-transform: rotate(5deg); } 
+    80% { -webkit-transform: rotate(-5deg); } 
+    100% { -webkit-transform: rotate(0deg); } 
+} 
+@keyframes swing { 
+    20% { transform: rotate(15deg); } 
+    40% { transform: rotate(-10deg); } 
+    60% { transform: rotate(5deg); } 
+    80% { transform: rotate(-5deg); } 
+    100% { transform: rotate(0deg); } 
+} 
+.swing { 
+    -webkit-transform-origin: top center; 
+    transform-origin: top center; 
+    -webkit-animation-name: swing; 
+    animation-name: swing; 
+}
+
+@media screen and (max-width: 1500px){
+	
+	#AllContent
+	{
+		width: 62%;
+		margin: 0 auto;
+		display: table;
+	}
+	
+	table.PpageContentStudentTable 
+	{
+	    width: 80%;
+	    margin: 0 auto;
+	    border: none;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	
+	#AllContent
+	{
+		width: 72%;
+		margin: 0 auto;
+		display: table;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	
+	#AllContent
+	{
+		width: 85%;
+		margin: 0 auto;
+		display: table;
+	}
+}
+
+@media screen and (max-width: 900px){
+	
+	#AllContent
+	{
+		width: 95%;
+		margin: 0 auto;
+		display: table;
+	}
+	table.PpageContentStudentTable 
+	{
+	    width: 100%;
+	    margin: 0 auto;
+	    border: none;
+	}
+}
+
+@media screen and (max-width: 760px){
+	
+	#AllContent
+	{
+		width: 100%;
+		margin: 0 auto;
+		display: table;
+	}
+	
+	body
+	{
+		margin: 3px;
+		background-attachment: fixed;
+		background-image: url('../img/background_parted.png');
+		-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	}
+	
+	#HhotLink
+	{
+		width: 40%;
+		height: 100%;
+		margin: 0 auto;
+		margin-top: 5%;
+		text-align: center;
+	}
+}

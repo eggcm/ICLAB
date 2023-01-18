@@ -1,0 +1,193 @@
+<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+<!DOCTYPE html>
+<html lang="zh_TW">
+    <head>
+		<meta charset="UTF-8" />
+        <!--標題列&樣式設定-->
+		<title>Applied Computing Lab Project</title>
+
+		<script src="jQuery/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#Page').load("html/Member/faculty.html");
+			
+				$('a.HfirstLNavLinkHref').click(function() {
+ 				var url = $(this).attr('href');
+ 				$('#Page').load(url);
+ 				return false;
+ 				});
+				
+				$('a.HSecondLNavLinkHref').click(function() {
+	 			var url = $(this).attr('href');
+	 			$('#Page').load(url);
+	 			return false;
+	 			});
+			});
+		</script>
+		<style>
+			@import url("css/main.css");
+		</style>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Cinzel:400, 700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Advent+Pro:300,400,500' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:600,400,300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<!--小圖示(瀏覽列)-->
+		<link rel="shortcut icon" href="img/acl_logo.png" />
+	</head>
+	
+	<body>
+		<div id="AllContent">
+			<div id="Header">
+				<a href="index.html" class="HeaderHref">
+					<div id="HheadTitle">
+						<h1 id="headTitleBigWord">Applied Computing Lab </h1>
+						<h6 id="headTitleSmallWord"><br>NTUT CSIE</h6>
+					</div>
+				</a>
+				
+				<div id="HhotLink">
+					<a href="http://www.ntut.edu.tw/~cmliu"><img src="img/professor_Reverse.png" class="HhotLinkIcons"></a>
+					<a href="https://www.facebook.com/aclab.ntut.edu.tw/"><img src="img/facebook-icon.png" class="HhotLinkIcons" onmouseover="img/facebook-icon_hover.png" onmouseout="img/facebook-icon"></a>
+					<a href="http://www.ntut.edu.tw/bin/home.php"><img src="img/Taipei-Tech-Logo3_Reverse.png" class="HhotLinkIcons"></a>
+					<a href="http://csie.ntut.edu.tw/csie/index_i.htm"><img src="img/Taipei-Tech-CSIE_Logo_Reverse.png" class="HhotLinkIcons"></a>
+				</div>
+
+
+				<ul class="HNavigation">
+				<!-- About -->
+					<li class="HNavigationFirstLi">
+						<a href="html/About/announcement.html" class="HfirstLNavLinkHref">
+							<div><h4 class="HfirstLNavLinkWord">About</h4></div>
+						</a>
+						<ul>
+							<li>
+								<a href="html/About/announcement.html" class="HSecondLNavLinkHref">
+									<div><h4 class="PsecondLNavLinkWord">Announcement</h4></div>
+								</a>
+							</li>
+							<li>
+								<a href="html/About/introduction.html" class="HSecondLNavLinkHref">
+									<div><h4 class="PsecondLNavLinkWord">Introduction</h4></div>
+								</a>
+							</li>
+							<li>
+								<a href="html/About/joinus.html" class="HSecondLNavLinkHref">
+									<div><h4 class="PsecondfLNavLinkWord">Join us</h4></div>
+								</a>
+							</li>
+							<li>
+								<a href="html/About/location.html" class="HSecondLNavLinkHref">
+									<div><h4 class="PsecondLNavLinkWord">Location</h4></div>
+								</a>
+							</li>
+							<li>
+								<a href="html/About/contact.html" class="HSecondLNavLinkHref">
+									<div><h4 class="PsecondLNavLinkWord">Contact</h4></div>
+								</a>
+							</li>
+						</ul>
+					</li>
+
+					<!-- Menber -->
+					<li class="HNavigationFirstLi">
+						<a href="html/Member/faculty.html" class="HfirstLNavLinkHref">
+							<div><h4 class="HfirstLNavLinkWord">Member</h4></div>
+						</a>
+						<ul>
+							<li>
+								<a href="html/Member/faculty.html" class="HSecondLNavLinkHref">
+									<div><h4 class="PsecondLNavLinkWord">Faculty</h4></div>
+								</a>
+							</li>
+							<li>
+								<a href="html/Member/alumni.html" class="HSecondLNavLinkHref">
+									<div><h4 class="PsecondLNavLinkWord">Alumni</h4></div>
+								</a>
+							</li>
+							<li>
+								<a href="html/Member/student2015.html" class="HSecondLNavLinkHref">
+									<div><h4 class="PsecondfLNavLinkWord">Student_2015</h4></div>
+								</a>
+							</li>
+							<li>
+								<a href="html/Member/student2014.html" class="HSecondLNavLinkHref">
+									<div><h4 class="PsecondLNavLinkWord">Student_2014</h4></div>
+								</a>
+							</li>
+						</ul>
+					</li>
+
+					<!-- Research -->
+					<li class="HNavigationFirstLi">
+						<a href="html/Research/domains.html" class="HfirstLNavLinkHref">
+							<div><h4 class="HfirstLNavLinkWord">Research</h4></div>
+						</a>
+						<ul>
+							<li>
+								<a href="html/Research/domains.html" class="HSecondLNavLinkHref">
+									<div><h4 class="PsecondLNavLinkWord">Domains</h4></div>
+								</a>
+							</li>
+							<li>
+								<a href="html/Research/publications.html" class="HSecondLNavLinkHref">
+									<div><h4 class="PsecondLNavLinkWord">Publications</h4></div>
+								</a>
+							</li>
+							<li>
+								<a href="html/Research/projects.html" class="HSecondLNavLinkHref">
+									<div><h4 class="PsecondfLNavLinkWord">Pojects</h4></div>
+								</a>
+							</li>
+						</ul>
+					</li>
+
+					<!-- Meeting -->
+					<li class="HNavigationFirstLi">
+						<a href="html/Meeting/meetings.html" class="HfirstLNavLinkHref">
+							<div><h4 class="HfirstLNavLinkWord">Meeting</h4></div>
+						</a>
+						<ul>
+							<li>
+								<a href="html/Meeting/meetings.html" class="HSecondLNavLinkHref">
+									<div><h4 class="PsecondLNavLinkWord">Meetings</h4></div>
+								</a>
+							</li>
+						</ul>
+					</li>
+
+					<!-- Activities -->
+					<li class="HNavigationFirstLi">
+						<a href="html/Activities/conferences.html" class="HfirstLNavLinkHref">
+							<div><h4 class="HfirstLNavLinkWord">Activities</h4></div>
+						</a>
+						<ul>
+							<li>
+								<a href="html/Activities/conferences.html" class="HSecondLNavLinkHref">
+									<div><h4 class="PsecondLNavLinkWord">Conferences</h4></div>
+								</a>
+							</li>
+							<li>
+								<a href="html/Activities/events.html" class="HSecondLNavLinkHref">
+									<div><h4 class="PsecondLNavLinkWord">Events</h4></div>
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<!--AJAX Page Replaces here -->
+			<div id="Page">
+				
+			</div>
+			
+			<div id="footer">
+				<h6 id="footerWord">© 2015 All Rights Reserved. Designed by Henry Chang  </h6>
+			</div>
+			
+		</div>
+
+	</body>
+</html>
